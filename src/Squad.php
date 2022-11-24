@@ -43,6 +43,6 @@ final class Squad
 
     private function format(string $member)
     {
-        return ucfirst(trim($member));
+        return ucfirst(trim(preg_replace('/[0-9,!]+/', '', $member)));
     }
 }
