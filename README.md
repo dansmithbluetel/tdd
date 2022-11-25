@@ -1,4 +1,4 @@
-#Make Commands
+Make Commands
 
 - build: Build the docker image to run the tests (Do this first!)
 - test: Runs all tests in the directory *without* code coverage
