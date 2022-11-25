@@ -5,3 +5,6 @@ Make Commands
 - configure: Run this if you want to set up code coverage (Make sure the bootstrap script is set to '../vendor/autoload.php')
 - coverage: Run tests and generate an HTML coverage report
 - clear: Clears the phpunit config (Useful if you want to switch off coverage again)
+
+The main branch is an empty sandbox 
+The tests branch contains the tests from the demo but no implementation in the src directory
